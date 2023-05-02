@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+.container-fluid{
+  background-color: hsl(217, 54%, 11%);
+}
+
+
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card{
+  width: 18rem;
+  border-radius: 5px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 1rem;
+}
+
+.card-body{
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.card-title{
+  color: hsl(0, 0%, 100%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+.card-title:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.card-text{
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+}
+
+.eth{
+  position: relative;
+  width: 100%;
+  margin-top: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.quantity{
+  color: hsl(178, 100%, 50%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+
+.days{
+  color: hsl(215, 51%, 70%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  margin-left: 1.5rem;
+}
+
+span{
+  font-size: 1rem;
+}
+
+.Ethereum{
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar{
+  width: 50px;
+  height: 50px;
+  border: 0.1rem solid white;
+  border-radius: 100%;
+}
+
+.preview__footer {
+  position: relative;
+  width: 100%;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.preview__footer-author{
+  color: hsl(215, 51%, 70%);
+  margin-left: 1rem;
+}
+
+.name{
+  color: hsl(0, 0%, 100%);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.name:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+.nft{
+  border-radius: 5px;
+}
+
+.preview_nft{
+  position: relative;
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.preview_nft:hover .overlay {
+  opacity: 1;
+  background-color: hsla(178, 100%, 50%, 0.5);
+  border-radius: 5px;
+  width: 254px;
+  height: 254px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+
+
+
+.Ethereum{
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.watch{
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
